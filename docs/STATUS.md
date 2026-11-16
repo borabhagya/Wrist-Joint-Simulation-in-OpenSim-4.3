@@ -1,0 +1,5 @@
+# Completed vs incomplete
+**Completed and checked:** model inspection; sign conventions; working model; four-movement kinematics + combined-movement kinematics (Exp. 3); moment arms (finite-difference verified); Inverse Dynamics (virtual-work verified, 120 checks);
+six Static Optimization runs (converged, reserve = 0); Newton–Euler joint reactions at radiocarpal and wrist_hand; forward dynamics (5 cases, FD→ID consistency); sensitivity (SO, FD, integrator); plausibility comparison with Delp 1996 / Ryu 1991; report (DOCX/PDF); scripts; CSV outputs.
+**Not completed / limited:** OpenSim 4.3 execution; OpenSim GUI screenshots and bone-mesh renderings (no Geometry folder); valid OpenSim JointReaction result (corrupted frames, ~10 N offset at later times – independent Newton–Euler used);
+dynamic analyses of combined movements (kinematic only); comparison with cadaveric moment arms (data not retrievable); animations; experimental validation (no experimental data); 8 bibliographic entries marked † not re-verified.
